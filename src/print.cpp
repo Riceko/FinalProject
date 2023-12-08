@@ -39,3 +39,8 @@ void Print::DisplayMenu() {
     cout << "5. Remove Task: " << endl;
     cout << "6. Quit " << endl;
 }
+
+void Print::printMonth(Month* MonthPtr) {
+    cout << "---------------- " << MonthPtr->getName() << "----------------" << endl;
+    cout << "------------------- " << MonthPtr->getYear
+}
